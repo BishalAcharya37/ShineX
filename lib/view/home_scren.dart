@@ -9,6 +9,9 @@ class HomeScren extends StatelessWidget {
       appBar: AppBar(
         title: Text("Hello"),
       ),
+      body: Column(
+        children: [Text("hello")],
+      ),
     );
   }
 }
